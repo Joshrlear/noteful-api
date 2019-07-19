@@ -21,7 +21,7 @@ app.use('/api/folders', folderRouter)
 app.use('/api/notes', noteRouter)
 
 app.get('/api/', (req, res) => {
-    res.send('Hello, world!')
+    res.send('Hello, world! Test Test!')
 })
 
 app.use(function errorHandler(error, req, res, next) {
